@@ -19,7 +19,7 @@ end
 def return_string_array(array)
   end_array = []
   for i in array do
-  end_array << array[i].to_s
+  end_array.unshift(array[i].to_s)
   end
   return end_array
 end
