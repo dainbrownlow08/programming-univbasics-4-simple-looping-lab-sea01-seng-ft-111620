@@ -9,3 +9,7 @@ def loop_message_n_times(message, n)
     puts message
   end
 end
+
+def output_array(array)
+  
+end
