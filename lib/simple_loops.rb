@@ -17,10 +17,9 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  count = 0
-  while count < array.length do
-    array[count].to_s
-    count += 1
+  end_array = []
+  for i in array do
+  end_array << array[i].to_s
   end
-  return array
+  return end_array
 end
