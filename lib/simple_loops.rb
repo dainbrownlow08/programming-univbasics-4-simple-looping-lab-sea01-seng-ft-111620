@@ -18,7 +18,8 @@ end
 
 def return_string_array(array)
   for i in array do
-    array[i] = array[i].to_s
+    x = array[i].to_s
+    array[i] = x
   end
   return array
 end
