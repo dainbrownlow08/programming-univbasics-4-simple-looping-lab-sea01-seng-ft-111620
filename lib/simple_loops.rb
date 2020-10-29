@@ -16,4 +16,9 @@ def output_array(array)
   end
 end
 
-def return_string_array
+def return_string_array(array)
+  for i in array do
+    array[i].to_s
+  end
+  return array
+end
